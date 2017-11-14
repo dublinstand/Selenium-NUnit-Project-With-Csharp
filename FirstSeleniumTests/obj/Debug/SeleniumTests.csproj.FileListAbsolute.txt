@@ -19,3 +19,4 @@ C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With
 C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\FirstSeleniumTests\bin\Debug\nunit.framework.xml
 C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\FirstSeleniumTests\bin\Debug\WebDriver.xml
 C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\FirstSeleniumTests\bin\Debug\WebDriver.Support.xml
+C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\FirstSeleniumTests\obj\Debug\SeleniumTests.csprojResolveAssemblyReference.cache

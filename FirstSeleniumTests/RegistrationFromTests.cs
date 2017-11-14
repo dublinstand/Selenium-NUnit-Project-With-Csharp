@@ -28,7 +28,7 @@ namespace FirstSeleniumTests
         }
 
         //Using Page Factory Object Model
-        [Test]
+        [Test, Property("Priority",1)]
         public void NavigateToRegistrationPage()
         {
             HomePage homePage = new HomePage(this.driver);
@@ -41,7 +41,7 @@ namespace FirstSeleniumTests
         }
 
         //Using Page Object Model
-        [Test]
+        [Test, Property("Priority", 2)]
         public void RegistrationWithoutMail()
         {
             RegistrationPage regPage = new RegistrationPage(this.driver);
@@ -50,7 +50,7 @@ namespace FirstSeleniumTests
 
         }
 
-        [Test]
+        [Test, Property("Priority", 3)]
         public void RegistrateWithOutFirstName()
         {
             var regPage = new RegistrationPage(this.driver);
@@ -76,7 +76,7 @@ namespace FirstSeleniumTests
             regPage.AssertNamesErrorMessage("This field is required");
         }
 
-        [Test]
+        [Test, Property("Priority", 4)]
         public void RegistrateWithOutPhoneNumber()
         {
             var regPage = new RegistrationPage(this.driver);

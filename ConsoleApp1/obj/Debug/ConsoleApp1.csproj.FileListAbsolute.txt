@@ -1,0 +1,11 @@
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Deyan\Documents\Visual Studio 2017\Projects\Selenium-NUnit-Project-With-Csharp\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

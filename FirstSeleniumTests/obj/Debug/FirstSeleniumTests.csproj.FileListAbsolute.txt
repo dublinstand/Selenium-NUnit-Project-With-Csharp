@@ -1,0 +1,9 @@
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\bin\Debug\FirstSeleniumTests.dll
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\bin\Debug\FirstSeleniumTests.pdb
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\bin\Debug\nunit.framework.dll
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\bin\Debug\WebDriver.dll
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\bin\Debug\nunit.framework.xml
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\bin\Debug\WebDriver.xml
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\obj\Debug\FirstSeleniumTests.csprojResolveAssemblyReference.cache
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\obj\Debug\FirstSeleniumTests.dll
+c:\users\deyan\documents\visual studio 2017\Projects\NUnitTest\FirstSeleniumTests\obj\Debug\FirstSeleniumTests.pdb

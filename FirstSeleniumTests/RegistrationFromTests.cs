@@ -29,6 +29,7 @@ namespace FirstSeleniumTests
 
         //Using Page Factory Object Model
         [Test, Property("Priority",1)]
+        [Author("Best QA")]
         public void NavigateToRegistrationPage()
         {
             HomePage homePage = new HomePage(this.driver);

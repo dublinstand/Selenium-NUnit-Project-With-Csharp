@@ -2,6 +2,7 @@
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,8 @@ namespace FirstSeleniumTests.Pages
 {
     public class BasePage
     {
-        IWebDriver driver;
+        private string url = ConfigurationManager.AppSettings["URL"];
+        private IWebDriver driver;
         private WebDriverWait wait;
 
         public BasePage(IWebDriver driver)
@@ -33,6 +35,13 @@ namespace FirstSeleniumTests.Pages
             get
             {
                 return this.wait;
+            }
+        }
+
+        public String getBaseURL {
+            get
+            {
+                return this.url;
             }
         }
     }

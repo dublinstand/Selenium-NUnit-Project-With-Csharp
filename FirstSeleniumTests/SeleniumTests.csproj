@@ -36,6 +36,7 @@
       <HintPath>..\packages\NUnit.3.6.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Drawing" />
     <Reference Include="WebDriver, Version=3.7.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Selenium.WebDriver.3.7.0\lib\net45\WebDriver.dll</HintPath>
@@ -47,16 +48,32 @@
   <ItemGroup>
     <Compile Include="Models\RegistrationUser.cs" />
     <Compile Include="Models\SoftUniUser.cs" />
+    <Compile Include="Pages\AutomationPracticePage\AutomationPage.cs" />
+    <Compile Include="Pages\AutomationPracticePage\AutomationPageAsserter.cs" />
+    <Compile Include="Pages\AutomationPracticePage\AutomationPageMap.cs" />
     <Compile Include="Pages\BasePage.cs" />
     <Compile Include="Pages\HomePage\HomePage.cs" />
     <Compile Include="Pages\HomePage\HomePageMap.cs" />
     <Compile Include="Pages\RegistrationPage\RegistrationPage.cs" />
     <Compile Include="Pages\RegistrationPage\RegistrationPageAsserter.cs" />
     <Compile Include="Pages\RegistrationPage\RegistrationPageMap.cs" />
+    <Compile Include="Pages\ResiblePage\ResiblePage.cs" />
+    <Compile Include="Pages\ResiblePage\ResiblePageAsserter.cs" />
+    <Compile Include="Pages\ResiblePage\ResiblePageMap.cs" />
+    <Compile Include="Pages\ToolsQAPage\ToolsQAHomePage.cs" />
+    <Compile Include="Pages\ToolsQAPage\ToolsQAHomePageAsserter.cs" />
+    <Compile Include="Pages\ToolsQAPage\ToolsQAHomePageMap.cs" />
     <Compile Include="RegistrationFromTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolsQATests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Configuration\Environment.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

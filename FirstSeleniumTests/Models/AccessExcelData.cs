@@ -1,11 +1,6 @@
-﻿using Dapper;
-using System;
-using System.Collections.Generic;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Data.OleDb;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SeleniumDesignPatternsDemo.Models
 {
@@ -27,7 +22,7 @@ namespace SeleniumDesignPatternsDemo.Models
             {
                 connection.Open();
                 var query = string.Format("select * from [DataSet$] where key = '{0}'", keyName);
-                var value = connection.Query<SoftUniUser>(query).FirstOrDefault();
+                //var value = connection.Query<SoftUniUser>(query).FirstOrDefault();
                 connection.Close();
                 return value;
             }

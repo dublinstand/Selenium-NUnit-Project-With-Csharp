@@ -1,5 +1,6 @@
 ﻿using FirstSeleniumTests.Pages.AutomationPackagePage;
 using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
@@ -7,6 +8,8 @@ using SeleniumDesignPatternsDemo.Pages.ResiblePage;
 using SeleniumDesignPatternsDemo.Pages.ToolsQAHomePage;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +30,19 @@ namespace FirstSeleniumTests
         [TearDown]
         public void CleanUp()
         {
+            if (TestContext.CurrentContext.Result.Outcome.Status == TestStatus.Failed)
+            {
+                string filename = ConfigurationManager.AppSettings["Logs"] + TestContext.CurrentContext.Test.Name + ".txt";
+                if (File.Exists(filename))
+                {
+                    File.Delete(filename);
+                }
+                File.WriteAllText(filename, TestContext.CurrentContext.Test.FullName + "        " + TestContext.CurrentContext.WorkDirectory + "            " + TestContext.CurrentContext.Result.PassCount);
+
+                var screenshot = ((ITakesScreenshot)this.driver).GetScreenshot();
+                screenshot.SaveAsFile(filename + TestContext.CurrentContext.Test.Name + ".jpg", ScreenshotImageFormat.Jpeg);
+            }
+
             this.driver.Quit();
         }
 
